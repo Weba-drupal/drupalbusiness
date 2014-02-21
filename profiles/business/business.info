@@ -1,0 +1,59 @@
+name = "Drupal Business"
+description = "Install Drupla 7 busines profile | Instalacja dystrybucji biznes z jezykiem polskim"
+
+core = "7.x"
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Features
+dependencies[] = features
+; Media
+dependencies[] = imce
+; Other
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = transliteration
+; User interface
+dependencies[] = imce_wysiwyg
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+; Business
+dependencies[] = business_start
+project = "business"
