@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Business start feature.
+ */
+
+include_once 'business_start.features.inc';
